@@ -157,6 +157,8 @@
   @media (max-width: 760px) { .hosts { grid-template-columns: 1fr; } }
   .host { display: flex; gap: 18px; align-items: center; background: var(--card); border: 1px solid var(--line); border-radius: var(--radius); padding: 24px; }
   .avatar { flex: 0 0 auto; width: 68px; height: 68px; border-radius: 50%; display: grid; place-items: center; font-weight: 900; font-size: 24px; color: #000; }
+  .avatar.photo { padding: 3px; background: conic-gradient(var(--blue), var(--red), var(--yellow), var(--green), var(--blue)); }
+  .avatar.photo img { width: 100%; height: 100%; border-radius: 50%; object-fit: cover; }
   .host b { display: block; font-size: 20px; line-height: 1.2; }
   .host span { color: var(--muted); font-size: 16px; }
 
@@ -342,7 +344,7 @@
       <p class="intro">Fazemos parte do Programa Embaixadores Estudantis do Google, que leva oficinas e conversas sobre IA para dentro das universidades.</p>
       <div class="hosts">
         <div class="host"><div class="avatar" style="background:var(--yellow)">HG</div><div><b>Hellida Louize Lima Duarte Gomes</b><span>Embaixadora Estudantil do Google</span></div></div>
-        <div class="host"><div class="avatar" style="background:var(--green)">JG</div><div><b>João Victor da Silva Almeida Guimarães</b><span>Embaixador Estudantil do Google</span></div></div>
+        <div class="host"><div class="avatar photo"><img src="assets/joao.jpg" alt="Foto de João Victor da Silva Almeida Guimarães" loading="lazy"></div><div><b>João Victor da Silva Almeida Guimarães</b><span>Embaixador Estudantil do Google</span></div></div>
       </div>
     </div>
   </section>
