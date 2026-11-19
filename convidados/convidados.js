@@ -1,4 +1,4 @@
-// Convidados CONFIRMADOS da roda de conversa (26/11), usados no carrossel.
+// Convidados CONFIRMADOS do bate-papo (26/11), usados no carrossel.
 // Cada convidado vira um slide. Para incluir outro: copie o bloco, troque os dados e rode `python gerar.py`.
 // Mantenha no formato JSON (aspas duplas, sem vírgula sobrando): o gerar.py lê este arquivo.
 window.CONVIDADOS = [
