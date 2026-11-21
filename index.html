@@ -220,6 +220,8 @@
   @media (prefers-reduced-motion: reduce) {
     .ring::before, .guest.soon .ring { animation: none; }
   }
+  .tags span.esgotado { background: var(--red); border-color: var(--red); color: #fff; }
+  .note a { color: var(--fg); text-underline-offset: 3px; }
 </style>
 </head>
 <body>
@@ -242,7 +244,7 @@
       <div>
         <span class="chip"><span class="dot" style="background:var(--yellow)"></span>II Semana de Educação, Ciências e Tecnologia do CCT · UEPB</span>
         <h1>Dois encontros<br>sobre IA</h1>
-        <p class="lead">Quarta tem minicurso de agentes de IA e Gems. Quinta, bate-papo sobre IA, segurança e o futuro da Computação. Os dois com certificado.</p>
+        <p class="lead">Quarta tem minicurso de agentes de IA e Gems, com vagas esgotadas. Quinta, bate-papo sobre IA, segurança e o futuro da Computação, e ainda dá tempo de se inscrever. Os dois com certificado.</p>
         <div class="ctas">
           <a class="btn btn-primary" data-even3 href="#" target="_blank" rel="noopener">Inscreva-se no Even3 <span aria-hidden="true">↗</span></a>
           <a class="btn btn-ghost" href="#programacao">Ver programação</a>
@@ -272,7 +274,7 @@
           <div class="meta">
             <div><i style="background:var(--yellow)"></i>Lab 5 · Central Acadêmica Paulo Freire (CAPF)</div>
           </div>
-          <div class="tags"><span>Certificado</span><span>Traga celular ou notebook</span></div>
+          <div class="tags"><span class="esgotado">Vagas esgotadas</span><span>Certificado</span><span>Traga celular ou notebook</span></div>
           <div class="actions">
             <a class="btn btn-ghost btn-sm" href="#minicurso">Ver detalhes</a>
             <a class="btn btn-ghost btn-sm" data-cal="mini" href="#" target="_blank" rel="noopener">Salvar na agenda</a>
@@ -324,6 +326,7 @@
         </div>
       </div>
       <p class="note"><span class="dot" style="background:var(--blue)"></span>Começamos com uma apresentação rápida do Programa Embaixadores Estudantis do Google. Traga celular ou notebook.</p>
+      <p class="note"><span class="dot" style="background:var(--red)"></span><span><b>As vagas do minicurso esgotaram.</b> Obrigado, pessoal! Ainda dá tempo de garantir sua vaga no <a href="#bate-papo">bate-papo de quinta</a>.</span></p>
     </div>
   </section>
 
@@ -387,8 +390,8 @@
   <section class="final">
     <div class="wrap">
       <img class="rocket" src="assets/foguete.png" alt="">
-      <h2 class="display">Garanta sua vaga</h2>
-      <p class="intro">As inscrições são feitas pela página da II Semana de Educação, Ciências e Tecnologia do CCT no Even3.</p>
+      <h2 class="display">Garanta sua vaga no bate-papo</h2>
+      <p class="intro">O minicurso de quarta esgotou, mas o bate-papo de quinta ainda tem vagas. As inscrições são feitas pela página da II Semana de Educação, Ciências e Tecnologia do CCT no Even3.</p>
       <div class="ctas">
         <a class="btn btn-primary" data-even3 href="#" target="_blank" rel="noopener">Inscreva-se no Even3 <span aria-hidden="true">↗</span></a>
       </div>
