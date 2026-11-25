@@ -9,5 +9,14 @@ window.CONVIDADOS = [
     "formacao": "Doutor em Ciência da Computação pela UFCG e pela Tampere University (Finlândia)",
     "bio": "Pesquisa Inteligência Artificial, com foco em aprendizado de máquina, IA explicável, justiça algorítmica e análise de dados. Desenvolve projetos de pesquisa e inovação com aplicações de IA em saúde, indústria e sistemas inteligentes.",
     "temas": ["Machine learning", "IA explicável", "Justiça algorítmica"]
+  },
+  {
+    "foto": "convidados/convidado2.jpg",
+    "nome": "Luciana de Queiroz Leal Gomes",
+    "genero": "f",
+    "cargo": "Professora de Ciência da Computação da UEPB",
+    "formacao": "Mestra e doutora em Engenharia de Software",
+    "bio": "Pesquisa evolução e manutenção de software, refatoração, desenvolvimento colaborativo e IA aplicada à Engenharia de Software. Coordena o projeto Mulheres na Computação @ UEPB e leva o Pensamento Computacional a escolas públicas.",
+    "temas": ["Engenharia de Software", "Educação em Computação", "Mulheres na Computação"]
   }
 ]
